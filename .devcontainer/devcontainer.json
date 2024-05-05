@@ -1,0 +1,11 @@
+{
+  "name": "Maakaf Website Dev Container",
+  "image": "node:14",
+  "workspaceFolder": "/workspace",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached",
+  "extensions": [
+  ],
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  }
+}
