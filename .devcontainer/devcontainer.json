@@ -3,8 +3,7 @@
   "image": "node:14",
   "workspaceFolder": "/workspace",
   "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached",
-  "extensions": [
-  ],
+  "extensions": [],
   "settings": {
     "terminal.integrated.shell.linux": "/bin/bash"
   }
